@@ -6,6 +6,6 @@
 }
 
 .item {
-  flex: 0 1 18%; /* Adjust width as needed */
+  flex: 0 1 18%; 
   margin-bottom: 20px;
 }
