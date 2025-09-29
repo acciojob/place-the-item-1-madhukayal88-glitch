@@ -1,2 +1,11 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 1 18%; /* Adjust width as needed */
+  margin-bottom: 20px;
+}
