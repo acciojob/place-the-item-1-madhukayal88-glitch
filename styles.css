@@ -1,11 +1,14 @@
 .holder {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px; /* Adds space between items */
   justify-content: space-between;
   padding: 20px;
 }
 
 .item {
-  flex: 0 1 18%; 
-  margin-bottom: 20px;
+  flex: 1 1 200px; /* Flexible width with minimum size */
+  min-width: 200px;
+  max-width: calc(33.33% - 20px); /* Optional: fits 3 per row with gap */
+  box-sizing: border-box;
 }
