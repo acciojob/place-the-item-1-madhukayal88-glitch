@@ -1,0 +1,13 @@
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10px; /* optional: to prevent items touching screen edges if needed */
+}
+
+.item {
+  flex: 1 1 150px; /* Items grow and shrink but start at 150px width */
+  margin: 10px 0;  /* vertical spacing between rows */
+  box-sizing: border-box;
+  min-width: 150px; /* prevent items from getting too small */
+}
